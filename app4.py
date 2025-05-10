@@ -10,7 +10,7 @@ import speech_recognition as sr
 from pydub import AudioSegment
 
 # Initialize Groq client
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "use your api key")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Initialize speech recognizer
