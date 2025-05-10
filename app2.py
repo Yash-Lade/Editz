@@ -6,7 +6,7 @@ import json
 from groq import Groq
 
 # Set your GROQ API key
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "use your grok api key")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Function to get trim instructions
